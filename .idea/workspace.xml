@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48888bb2-eb99-4fbe-a869-e55682824551" name="Default Changelist" comment="" />
+    <list default="true" id="48888bb2-eb99-4fbe-a869-e55682824551" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1406_practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/tutorials/t01/TaxProgram.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X0DayEaFyrP8gyDcEzVAOsfiBK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,10 +33,36 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\musa\Desktop\1406_practice\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TaxProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.com.tutorials.t01.TaxProgram" />
+      <module name="1406_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.com.tutorials.t01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TaxProgram" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -57,5 +94,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="234" y="1" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1580174196136" />
+    <state width="1204" height="155" key="GridCell.Tab.0.bottom" timestamp="1580175142526">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1204" height="155" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580175142526" />
+    <state width="1204" height="155" key="GridCell.Tab.0.center" timestamp="1580175142525">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1204" height="155" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580175142525" />
+    <state width="1204" height="155" key="GridCell.Tab.0.left" timestamp="1580175142525">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1204" height="155" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580175142525" />
+    <state width="1204" height="155" key="GridCell.Tab.0.right" timestamp="1580175142525">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1204" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580175142525" />
+    <state x="86" y="0" key="new project wizard" timestamp="1580175141370">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="86" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1580175141370" />
   </component>
 </project>
