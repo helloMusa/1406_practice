@@ -9,6 +9,7 @@ public abstract class GameObject {
     public void setLocation(Point2D newLocation) { location = newLocation; }
 
     public abstract void update();
+    public abstract char appearance();
 
     public String toString() {
         return " at (" + (int)location.getX() + "," + (int)location.getY() + ")";

@@ -1,6 +1,7 @@
 public abstract class MovableObject extends GameObject {
     protected int direction;
     protected int speed;
+    protected Point2D previousLocation;
 
     public MovableObject(int d, int s, Point2D loc) {
         super(loc);
@@ -13,12 +14,14 @@ public abstract class MovableObject extends GameObject {
     public void setDirection(int newDirection) { direction = newDirection; }
     public void setSpeed(int newSpeed) { speed = newSpeed; }
 
+    public Point2D getPreviousLocation() { return getLocation(); }
+
     public void update() {
         moveForward();
-        draw();
+        // draw();
     }
 
-    public abstract void draw();
+    // public abstract void draw();
 
     public void moveForward() {
         if (speed > 0) {
@@ -31,4 +34,5 @@ public abstract class MovableObject extends GameObject {
     public String toString() {
         return super.toString() + " facing " + direction + " degrees going " + speed + " pixels per second";
     }
+
 }

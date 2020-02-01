@@ -10,15 +10,19 @@ public class Ball extends MovableObject implements Harmful {
     public boolean isBeingHeld() { return isBeingHeld; }
     public void setIsBeingHeld(boolean newHoldStatus) { isBeingHeld = newHoldStatus; }
 
-    public void draw() {
-        System.out.println("Ball is at " + getLocation() + " facing " + getDirection() +
-                " degrees and moving at " + getSpeed() + " pixels per second");
-    }
+//    public void draw() {
+//        System.out.println("Ball is at " + getLocation() + " facing " + getDirection() +
+//                " degrees and moving at " + getSpeed() + " pixels per second");
+//    }
 
     public void update() {
         moveForward();
-        draw();
+        // draw();
         if (speed > 0) { speed -= 1; }
+    }
+
+    public char appearance() {
+        return 'B';
     }
 
     public int getDamageAmount() {

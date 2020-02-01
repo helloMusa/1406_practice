@@ -9,6 +9,10 @@ public class Prize extends StationaryObject {
     // The get/set methods
     public int getValue() { return value; }
 
+    public char appearance() {
+        return '$';
+    }
+
     public String toString() {
         return "Prize" + super.toString() + " with value " + value;
     }

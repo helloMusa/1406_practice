@@ -8,6 +8,10 @@ public class Trap extends StationaryObject implements Harmful {
         return -50;
     }
 
+    public char appearance() {
+        return '@';
+    }
+
     public String toString() {
         return "Trap" + super.toString();
     }

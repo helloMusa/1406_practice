@@ -21,9 +21,13 @@ public class Player extends MovableObject {
     public void setHasBall(boolean newHasBall) { hasBall = newHasBall; }
     public void setScore(int newScore) { score = newScore; }
 
-    public void draw() {
-        System.out.println("Player is at " + getLocation() + " facing " + getDirection() +
-                " degrees and moving at " + getSpeed() + " pixels per second");
+//    public void draw() {
+//        System.out.println("Player is at " + getLocation() + " facing " + getDirection() +
+//                " degrees and moving at " + getSpeed() + " pixels per second");
+//    }
+
+    public char appearance() {
+        return 'P';
     }
 
     public String toString() {

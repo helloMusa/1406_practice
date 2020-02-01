@@ -12,6 +12,10 @@ public class Wall extends StationaryObject {
     public int getWidth() { return width; }
     public int getHeight() { return height; }
 
+    public char appearance() {
+        return '#';
+    }
+
     public String toString() {
         return "Wall" + super.toString() + " with width " + width + " and height " + height;
     }

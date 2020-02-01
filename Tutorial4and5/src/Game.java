@@ -3,10 +3,12 @@ public class Game {
 
     GameObject[]        gameObjects;
     int             objectCount;
+    GameBoard gameBoard;
 
     public Game() {
         gameObjects = new GameObject[MAX_GAME_OBJECTS];
         objectCount = 0;
+        gameBoard = new GameBoard();
     }
 
     public void add(GameObject obj) {
@@ -58,5 +60,9 @@ public class Game {
                 }
             }
             return damage;
+        }
+
+        public void displayBoard() {
+            gameBoard.display(this);
         }
 }
